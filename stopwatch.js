@@ -22,7 +22,7 @@ function reset(){
     startTime=0;
     elapsedTime=0;
         isRunning=false;
-        dispaly.textContent="00:00:00:00";
+        display.textContent="00:00:00:00";
     }
     function updateDisplay(){
         const currentTime=Date.now();
